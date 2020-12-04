@@ -154,7 +154,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    padding: 9rem 3rem;
+    padding: 9rem 3rem 4rem;
 }
 
 .con {
@@ -187,6 +187,43 @@ body {
 
 .con a:hover {
     border-bottom: 2px solid rgba(255, 255, 255, 1) !important;
+}
+
+.emailme {
+    padding: 0 3rem 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailme a {
+    text-decoration: none;
+}
+
+.emailme-box {
+    padding: .8rem 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.emailme-box-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: var(--color-text2);
+}
+
+.emailme-box svg {
+    height: 30px;
+    width: 30px;
 }
 
 /* Small screens */
@@ -266,7 +303,7 @@ body {
     }
 
     .content {
-        padding: 11rem 3rem;
+        padding: 11rem 3rem 5rem;
     }
 }
 
