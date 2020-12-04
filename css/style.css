@@ -191,12 +191,16 @@ body {
 
 /* Small screens */
 @media only screen and (max-width: 700px) {
+    .header {
+        height: calc(100vh - 45px);
+    }
+
     .headmain {
-        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url(../images/image2b.png);
+        background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1) ), url(../images/image2b.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: calc(100vh - 45px);
+        height: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
