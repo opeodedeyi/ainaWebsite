@@ -196,7 +196,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: calc(100vh - 45px);
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
