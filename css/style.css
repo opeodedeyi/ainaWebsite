@@ -250,7 +250,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     z-index: 101;
     bottom: -500px;
@@ -277,6 +278,29 @@ body {
 
 .open-nav {
     bottom: 0;
+}
+
+.nav-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 750px;
+    color: var(--color-text2);
+    padding: 3rem 0;
+}
+
+.nav-body-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-body-content {
+    margin-top: 1.5rem;
+}
+
+.nav-body-content p {
+    margin-bottom: .5rem;
 }
 
 /* Small screens */
@@ -341,6 +365,15 @@ body {
     
     .headmain-socialmedia-icon {
         margin: 0;
+    }
+
+    .nav-body {
+        padding: 3rem;
+    }
+
+    .nav-body-title {
+        font-size: 1.1rem;
+        font-weight: bold;
     }
 
 }
